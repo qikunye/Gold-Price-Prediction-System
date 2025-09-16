@@ -33,7 +33,7 @@ train_data = closing_prices_scaled[:training_size]
 test_data  = closing_prices_scaled[training_size - 60:]  
 
 
-
+##hiii
 def create_sequences(data, n_steps):
     X, y = [], []
     for i in range(len(data) - n_steps):
